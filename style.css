@@ -167,7 +167,7 @@ header .navbar ul li a:hover {
   transition: 0.5s;
   color: #fff;
   background: #09011b;
-  box-shadow: 0px 5px 18px #09011b;
+  box-shadow: 0px 5px 18px #B19CD9;
   font-family: "Nunito", sans-serif;
 }
 
@@ -218,6 +218,100 @@ header .navbar ul li a:hover {
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
+}
+
+.sobre {
+  background: rgb(255, 255, 255);
+}
+
+.sobre .row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 4rem;
+}
+
+.sobre .row .image {
+  text-align: center;
+  flex: 1 1 35rem;
+}
+
+.sobre .row .image img {
+  margin: 4rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  transform: none !important;
+  transition: none !important;
+}
+
+.sobre .row .conteudo {
+  flex: 1 1 45rem;
+  padding: 3rem;
+}
+
+.sobre .row .conteudo h3 {
+  color: rgb(27, 27, 27);
+  font-size: 2.5rem;
+}
+
+.sobre .row .conteudo .tag {
+  font-size: 1.4rem;
+  color: #020133;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.sobre .row .conteudo p {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
+}
+
+.sobre .row .conteudo .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+
+.curriculo {
+  margin-top: 6rem;
+}
+
+.curriculo .btn {
+  padding: 1.7rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  color: #fff;
+  background: #09011b;
+  box-shadow: 0px 5px 10px #B19CD9;
+  font-family: "Nunito", sans-serif;
+}
+
+.curriculo .btn span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.curriculo .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.curriculo .btn:hover {
+  background: #1a047e;
+}
+
+.curriculo .btn:hover i {
+  transform: translateX(5px);
 }
 
 
