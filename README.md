@@ -47,7 +47,7 @@ cd seu-repositorio
 - **Arraste o arquivo** `index.html` para o navegador.
 - **OU**, use a extensão **Live Server** no VS Code:
   - Procure pela extensão "Live Server" no terceiro ícone do menu da esquerda do VS Code e instale-a
-  - Clique com o botão direito no `index.html` e, em `Open with Live Server`
+  - Clique com o botão direito no `index.html` e, em seguida, `Open with Live Server`
 
 ---
 
