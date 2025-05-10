@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url(cartao-branco-amassado.jpg);
+  background-image: url(assets/imagens/cartao-branco-amassado.jpg);
   font-family: "Poppins", sans-serif;
 }
 
@@ -35,7 +35,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 
@@ -129,7 +129,7 @@ header .navbar ul li a:hover {
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px #B19CD9;;
 }
 
 .home .conteudo h2 {
@@ -165,7 +165,7 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
+  color: white;
   background: #09011b;
   box-shadow: 0px 5px 18px #B19CD9;
   font-family: "Nunito", sans-serif;
@@ -221,7 +221,7 @@ header .navbar ul li a:hover {
 }
 
 .sobre {
-  background: rgb(255, 255, 255);
+  background: white;
 }
 
 .sobre .row {
@@ -286,7 +286,7 @@ header .navbar ul li a:hover {
   padding: 1.7rem 3rem;
   border-radius: 0.5em;
   transition: 0.3s;
-  color: #fff;
+  color: white;
   background: #09011b;
   box-shadow: 0px 5px 10px #B19CD9;
   font-family: "Nunito", sans-serif;
@@ -342,7 +342,7 @@ header .navbar ul li a:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: 4px solid #020133;
   top: 15px;
   border-radius: 50%;
@@ -411,7 +411,7 @@ header .navbar ul li a:hover {
 
 .footer .box-container .box h3 {
   font-size: 2.5rem;
-  color: #fff;
+  color: white;
   padding-bottom: 1rem;
   font-weight: normal;
 }
@@ -433,6 +433,11 @@ header .navbar ul li a:hover {
   color: white;
   padding: 0.3rem 0;
   display: block;
+}
+
+.footer .box-container .box a:hover {
+  background: transparent;
+  color: #B19CD9;
 }
 
 .footer .box-container .box .share {
