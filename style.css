@@ -314,4 +314,83 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
+.experiencia .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.experiencia .timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background: #020133;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -2;
+}
+.experiencia .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/*circulos*/
+.experiencia .container::after {
+  content: "\f0b1";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #020133;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  font-size: 1.89rem;
+  text-align: center;
+  font-weight: 600;
+  color: #02094b;
+  font-family: "Font Awesome\ 5 Free";
+}
+
+.experiencia .left {
+  left: 0;
+}
+
+.experiencia .right {
+  left: 50%;
+}
+
+.experiencia .right::after {
+  left: -16px;
+}
+
+.experiencia .conteudo {
+  background-color: #B19CD9;
+  position: relative;
+  border-radius: 6px;
+}
+
+.experiencia .conteudo .tag {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.experiencia .conteudo .desc {
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.experiencia .conteudo .desc h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.experiencia .conteudo .desc p {
+  font-size: 1.2rem;
+}
 
