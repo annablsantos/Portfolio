@@ -27,7 +27,11 @@ Este é meu portfólio profissional desenvolvido com **HTML**, **CSS** e **JavaS
 │   └── imagens/
 ```
 
-## 🚀 Como clonar e executar localmente
+## 💡 Caso opte por não clonar o projeto, você pode vê-lo utilizando o link abaixo do Deploy no GitHub Pages: 
+
+https://annablsantos.github.io/Portfolio/
+
+## 🚀 Mas caso opte por clonar e executar localmente, siga o tutorial abaixo:
 
 1. Clone este repositório:
 
