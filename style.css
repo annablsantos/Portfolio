@@ -312,11 +312,127 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
+.projetos {
+  background-image: url(assets/imagens/cartao-branco-amassado.jpg);
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+
+.projetos h2 {
+  color: #020133;
+  padding: 1rem;
+  text-align: center;
+}
+
+.projetos .heading span {
+  color: #B19CD9;
+}
+
+.projetos .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+  margin: 2rem;
+  justify-content: center;
+}
+
+.projetos .box-container .box {
+  flex: 0 1 330px;
+  border-radius: .5rem;
+  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+  position: relative;
+  overflow:hidden;
+  height:30rem;
+  background: #fff;
+  border: none;
+}
+
+.projetos .box-container .box img {
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.projetos .box-container .box .content {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:85%; left:0;
+  background:rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  transition: top 0.4s ease;
+}
+
+.projetos .box-container .box .content .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  background: #B19CD9;
+}
+
+.projetos .box-container .box .content .tag h3 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+}
+
+.projetos .box-container .box:hover .content {
+  top: 25%;
+}
+
+.projetos .desc {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projetos .desc p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.projetos .desc .btns {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.projetos .desc .btns .btn {
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2.5rem; 
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(12, 12, 12);
+}
+
+.projetos .desc .btns .btn:hover {
+  background: #B19CD9;
+}
+
+.projetos .desc .btns .btn i {
+  margin-right: 0.8rem;
+}
+
+.experiencia {
+  background: #fff;
+}
+
 .experiencia .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 6rem 0; 
 }
+
 .experiencia .timeline::after {
   content: "";
   position: absolute;

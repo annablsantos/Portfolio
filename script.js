@@ -51,6 +51,49 @@ const scroll = ScrollReveal({
     reset: true
 });
 
+function buscarProjetos() { 
+    return fetch("assets/projetos.json") 
+        .then(response => response.json())
+        .then(dados => dados); 
+}
+
+function mostrarProjetos(projetos) { 
+    let containerProjetos = document.querySelector(".projetos .box-container"); 
+    let htmlProjetos = ""; 
+    projetos.forEach(projeto => { 
+        htmlProjetos += `
+        <div class="box tilt">
+            <img draggable="false" src="assets/imagens/${projeto.imagem}" alt="${projeto.nome}" />
+            <div class="content">
+                <div class="tag">
+                    <h3>${projeto.nome}</h3>
+                </div>
+                <div class="desc">
+                    <p>${projeto.descricao}</p>
+                    <div class="btns">
+                        <a href="${projeto.links.ver}" class="btn" target="_blank"><i class="fas fa-eye"></i> Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    });
+    containerProjetos.innerHTML = htmlProjetos;
+
+    VanillaTilt.init(document.querySelectorAll(".projetos .box-container .tilt"), {
+        max: 15,
+    });
+
+    scroll.reveal('.projetos .box-container .box', {
+        origin: 'bottom',
+        distance: '60px',
+        interval: 150 
+    });
+}
+
+buscarProjetos().then(dados => { 
+    mostrarProjetos(dados); 
+});
+
 // home
 scroll.reveal('.home .conteudo h3', { delay: 200 });
 scroll.reveal('.home .conteudo p', { delay: 200 });
@@ -67,7 +110,9 @@ scroll.reveal('.sobre .conteudo p', { delay: 200 });
 scroll.reveal('.sobre .conteudo .box-container', { delay: 200 });
 scroll.reveal('.sobre .conteudo .resumebtn', { delay: 200 });
 
+// projetos
+scroll.reveal('.projetos .heading', { delay: 400 });
+
 // experiencia
 scroll.reveal('.experiencia .timeline', { delay: 400 });
 scroll.reveal('.experiencia .timeline .container', { interval: 400 });
-

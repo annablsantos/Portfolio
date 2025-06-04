@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Verifica CEP",
+    "descricao": "Este é um projeto que permite verificar a validade e a invalidade de um CEP utilizando tecnologias como Java, Rest Assured e Junit.",
+    "imagem": "viacepimg.jpg",
+    "links": {
+      "ver": "https://github.com/annablsantos/Verifica-CEP"
+    }
+  },
+  {
+    "nome": "ServeRest",
+    "descricao": "Projeto com o objetivo de realizar testes automatizados para a API do 'ServeRest' utilizando Java, RestAssured e JUnit.",
+    "imagem": "serverestimg.png",
+    "links": {
+      "ver": "https://github.com/annablsantos/ServeRest"
+    }
+  },
+  {
+    "nome": "Portfólio Pessoal",
+    "descricao": "Você está visitando-o agora! Portfólio feito em HTML, CSS & JavaScript, utilizando bibliotecas como Jquery, TypedJs e Vanilla Tilt.",
+    "imagem": "portfolioimg.png",
+    "links": {
+      "ver": "https://github.com/annablsantos/Portfolio"
+    }
+  },
+  {
+    "nome": "Agenda To-Do",
+    "descricao": "Agenda de To-Do, que adiciona e exclui afazeres, feita em TypeScript, SCSS e React.",
+    "imagem": "todoimg.jpg",
+    "links": {
+      "ver": "https://github.com/annablsantos/to-do"
+    }
+  },
+  {
+    "nome": "Landing Page Cafeteria",
+    "descricao": "Landing Page em HTML & CSS de uma cafeteria fictícia.",
+    "imagem": "landingpageimg.png",
+    "links": {
+      "ver": "https://github.comcom/annablsantos/Food-Landing-Page"
+    }
+  }
+]
