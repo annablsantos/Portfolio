@@ -27,7 +27,11 @@ Este é meu portfólio profissional desenvolvido com **HTML**, **CSS** e **JavaS
 │   └── imagens/
 ```
 
-## 🚀 Como clonar e executar localmente
+## 💡 Caso opte por não clonar o projeto, você pode vê-lo utilizando o link abaixo do Deploy no GitHub Pages: 
+
+https://annablsantos.github.io/Portfolio/
+
+## 🚀 Mas caso opte por clonar e executar localmente, siga o tutorial abaixo:
 
 1. Clone este repositório:
 
@@ -49,7 +53,9 @@ cd seu-repositorio
   - Procure pela extensão "Live Server" no terceiro ícone do menu da esquerda do VS Code e instale-a
   - Clique com o botão direito no `index.html` e, em seguida, `Open with Live Server`
 
-## OBS: Para abrir o projeto em pleno funcionamento, é necessário que você esteja conectado à Internet. As bibliotecas usadas (jQuery, Typed.js, Vanilla Tilt, etc.) são carregadas via CDNs (ou seja, hospedadas online).
+### ❗ Este projeto é de uso pessoal. Sinta-se à vontade para se inspirar, mas não copie diretamente sem crédito.
+
+##### OBS: Para abrir o projeto em pleno funcionamento, é necessário que você esteja conectado à Internet. As bibliotecas usadas (jQuery, Typed.js, Vanilla Tilt, etc.) são carregadas via CDNs (ou seja, hospedadas online).
 
 ---
 
